@@ -14,7 +14,6 @@ __pycache__/
 .vscode/
 
 # TurtleBot3 trained models / rewards (large files)
-trained_reward/
 trained/
 *.pt
 *.pkl

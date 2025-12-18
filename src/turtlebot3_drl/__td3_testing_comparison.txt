@@ -1,0 +1,7 @@
+20251218-103808, /home/ajay/tb3_ws/src/turtlebot3_drl/trained_reward/td3_2_stage_9, 2300, 1, 128, 1000000, 44, 2, 512, 0.99, 0.003, 0.003, 0.01, A, False, False, 3, 4
+20251218-134455, /home/ajay/tb3_ws/src/turtlebot3_drl/trained_reward/td3_2_stage_9, 2300, 1, 128, 1000000, 44, 2, 512, 0.99, 0.003, 0.003, 0.01, A, False, False, 3, 4
+20251218-134522, /home/ajay/tb3_ws/src/turtlebot3_drl/trained_reward/td3_2_stage_9, 2300, 1, 128, 1000000, 44, 2, 512, 0.99, 0.003, 0.003, 0.01, A, False, False, 3, 4
+20251218-135110, /home/ajay/tb3_ws/src/turtlebot3_drl/trained_reward/td3_6_stage_9, 3000, 1, 128, 1000000, 44, 2, 512, 0.99, 0.003, 0.003, 0.01, A, False, False, 3, 4
+20251218-140235, /home/ajay/tb3_ws/src/turtlebot3_drl/trained_reward/td3_8_stage_9, 2800, 1, 128, 1000000, 44, 2, 512, 0.99, 0.003, 0.003, 0.01, A, False, False, 3, 4
+20251218-140325, /home/ajay/tb3_ws/src/turtlebot3_drl/trained_reward/td3_6_stage_9, 3000, 1, 128, 1000000, 44, 2, 512, 0.99, 0.003, 0.003, 0.01, A, False, False, 3, 4
+20251218-140453, /home/ajay/tb3_ws/src/turtlebot3_drl/trained_reward/td3_2_stage_9, 2300, 1, 128, 1000000, 44, 2, 512, 0.99, 0.003, 0.003, 0.01, A, False, False, 3, 4

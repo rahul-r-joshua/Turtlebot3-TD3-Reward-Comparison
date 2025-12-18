@@ -1,0 +1,38 @@
+# ROS and Catkin build artifacts
+build/
+devel/
+install/
+log/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode settings
+.vscode/
+
+# TurtleBot3 trained models / rewards (large files)
+trained_reward/
+trained/
+*.pt
+*.pkl
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore launch / simulation log files
+*.log
+
+# Ignore workspace-specific files
+*.db
+
+.vscode/

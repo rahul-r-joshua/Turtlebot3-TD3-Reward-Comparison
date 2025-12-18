@@ -224,6 +224,20 @@ ros2 run turtlebot3_drl test_agent td3 /home/{User_Name}/Turtlebot3-TD3-Reward-C
 > ⚠️ **Note:**  There are multiple trained weights available for each reward type in this repository.  
 > The examples above use suggested episodes for quick testing, but you can experiment with other weights by modifying the **episode number** or selecting different weight folders.
 
+## 📦 Pre-Trained Weights
+
+The pre-trained TD3 weights for **Hybrid**, **Goal-Oriented**, and **Movement-Based** rewards are available in the [Releases](https://github.com/rahul-r-joshua/Turtlebot3-TD3-Reward-Comparison/releases) section.  
+
+You can directly download the `.zip` file and use it for testing your agent in Gazebo.  
+
+> 💡 **Note:** After downloading, **extract the `.zip` file** and move its contents to your TurtleBot3 DRL directory:  
+
+
+```bash
+unzip ~/Downloads/trained_reward_check.zip -d ~/Turtlebot3-TD3-Reward-Comparison/src/turtlebot3_drl/
+```
+
+
 
 ## 📊 Training Insights & Reward Comparison
 

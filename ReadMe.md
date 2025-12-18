@@ -70,7 +70,7 @@ git clone https://github.com/rahul-r-joshua/Turtlebot3-TD3-Reward-Comparison.git
 Navigate to your ROS 2 workspace and build the packages using `colcon`:
 
 ```bash
-cd ~/tb3_ws
+cd ~/Turtlebot3-TD3-Reward-Comparison
 colcon build --symlink-install
 ```
 
@@ -95,7 +95,7 @@ source install/setup.bash
 To automatically source the workspace whenever you open a terminal, add the following to your `.bashrc`:
 
 ```bash
-echo "source ~/tb3_ws/install/setup.bash" >> ~/.bashrc
+echo "source ~/Turtlebot3-TD3-Reward-Comparison/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 > ⚠️ **Important:** Sourcing is required in every terminal before running ROS 2 commands.
@@ -113,7 +113,7 @@ source ~/.bashrc
 
 The reward definitions are located in:
 ```bash 
-cd ~/tb3_ws/src/turtlebot3_drl/turtlebot3_drl/drl_environment/
+cd ~/Turtlebot3-TD3-Reward-Comparison/src/turtlebot3_drl/turtlebot3_drl/drl_environment/
 ```
 ```bash
 ls
@@ -206,19 +206,19 @@ ros2 launch turtlebot3_gazebo turtlebot3_drl_stage9.launch.py
 ### 🟡 Hybrid Reward
 
 ```bash
-ros2 run turtlebot3_drl test_agent td3 /home/{User_Name}/tb3_ws/src/turtlebot3_drl/trained_reward/td3_2_stage_9 2300
+ros2 run turtlebot3_drl test_agent td3 /home/{User_Name}/Turtlebot3-TD3-Reward-Comparison/src/turtlebot3_drl/trained_reward/td3_2_stage_9 2300
 ```
 
 
 ### 🟢 Goal-Oriented Reward
 ```bash
-ros2 run turtlebot3_drl test_agent td3 /home/{User_Name}/tb3_ws/src/turtlebot3_drl/trained_reward/td3_6_stage_9 3000
+ros2 run turtlebot3_drl test_agent td3 /home/{User_Name}/Turtlebot3-TD3-Reward-Comparison/src/turtlebot3_drl/trained_reward/td3_6_stage_9 3000
 ```
 
 
 ### 🔵 Movement-Based Shaped Reward
 ```bash
-ros2 run turtlebot3_drl test_agent td3 /home/{User_Name}/tb3_ws/src/turtlebot3_drl/trained_reward/td3_8_stage_9 2800
+ros2 run turtlebot3_drl test_agent td3 /home/{User_Name}/Turtlebot3-TD3-Reward-Comparison/src/turtlebot3_drl/trained_reward/td3_8_stage_9 2800
 ```
 
 > ⚠️ **Note:**  There are multiple trained weights available for each reward type in this repository.  

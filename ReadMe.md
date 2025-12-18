@@ -74,7 +74,7 @@ cd ~/Turtlebot3-TD3-Reward-Comparison
 colcon build --symlink-install
 ```
 
-> ⚠️ **Important:** Make sure you are in the root of your workspace (`~/tb3_ws`) before running `colcon build`. 
+> ⚠️ **Important:** Make sure you are in the root of your workspace (`~/Turtlebot3-TD3-Reward-Comparison`) before running `colcon build`. 
 
 > 💡 **Tip:** Use `--symlink-install` during development to apply changes without rebuilding the entire workspace.
 
